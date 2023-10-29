@@ -15,7 +15,7 @@ bernoulli <- function(n, p) {
 }
 ##################################################################
 # Define the path to your Stan model file
-stan_file <- "models/binomial_bandit.stan"
+stan_file <- "models/binomial_bandit.R"
 
 # Compile the Stan model
 model <- stan_model(file = stan_file)
