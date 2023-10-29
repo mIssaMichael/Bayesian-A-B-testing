@@ -71,20 +71,14 @@ stan_model <- '
     post_prob = post_prob / sum(post_prob)
   }
   '
-  
-  
-  #compiled_model <- stan_model(model_code = stan_model)
-  #stan_data <- sampling(compiled_model, data=data)
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+#compiled_model <- stan_model(model_code = stan_model)
+#stan_data <- sampling(compiled_model, data=data)
+
+
+
+
   
   
   
